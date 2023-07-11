@@ -7,14 +7,14 @@ use crossterm::{
     terminal::{disable_raw_mode, enable_raw_mode, EnterAlternateScreen, LeaveAlternateScreen},
 };
 use std::{error::Error, io};
-use tui::{
+use ratatui::{
     backend::{Backend, CrosstermBackend},
     style::{Color, Modifier, Style},
     widgets::{Block, Borders},
     Terminal,
 };
 
-use tui_tree_widget::{Tree, TreeItem};
+use ratatui_tree_widget::{Tree, TreeItem};
 
 struct App<'a> {
     tree: StatefulTree<'a>,

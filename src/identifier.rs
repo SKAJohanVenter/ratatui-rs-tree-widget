@@ -10,7 +10,7 @@ pub type TreeIdentifierVec = Vec<usize>;
 /// # Examples
 ///
 /// ```
-/// # use tui_tree_widget::get_identifier_without_leaf;
+/// # use ratatui_tree_widget::get_identifier_without_leaf;
 /// let (branch, leaf) = get_identifier_without_leaf(&[2, 4, 6]);
 /// assert_eq!(branch, [2, 4]);
 /// assert_eq!(leaf, Some(6));

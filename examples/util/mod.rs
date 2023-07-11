@@ -1,4 +1,4 @@
-use tui_tree_widget::{TreeItem, TreeState};
+use ratatui_tree_widget::{TreeItem, TreeState};
 
 pub struct StatefulTree<'a> {
     pub state: TreeState,
